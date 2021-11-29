@@ -1,0 +1,223 @@
+body
+{
+    /*background: #2A222A; */
+    background-image: url('marble3.jpg');
+    font-family: "Bookman Old Style", serif;
+    font-size: 17px;
+    font-weight: normal;
+
+    /* Same as above */
+    /*font-weight: normal 12px "Bookman Old Style", serif;*/
+
+    line-height: 1.6 em;
+}
+
+dd {
+    margin:0;
+}
+
+/*to target a class we use . */
+
+.review-prompt-box h1 {
+    text-align:center;
+}
+.review-prompt-box h4 {
+    padding:0;
+    margin:0;
+}
+.review-prompt-box
+{
+    background-color:#E3D0E3;
+    color: #2A222A;
+
+    border: 1px solid;
+    border-radius:5px;
+
+    padding-top: .05px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    width: 520px;
+    margin-left: calc(50% - 250px);
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 2px 2px 5px black;
+}
+.single-list {
+    color: #2A222A;
+    border: 1px solid #2A222A;
+    float:left;
+    width: 30%;
+    padding:10px;
+    margin:10px;
+    box-sizing:border-box;
+}
+
+.submitted-review {
+    color: #E3D0E3;
+    border: 1px solid #E3D0E3;
+    float:left;
+    /*width: 30%;*/
+    width: 520px;
+    padding:10px;
+    margin:10px;
+    box-sizing:border-box;
+}
+
+.user-review-class-div {
+    border: 1px solid;
+    border-radius:5px;
+
+    padding-top: .05px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 520px;
+    margin-left: calc(50% - 250px);
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 2px 2px 5px black;
+
+}
+.user-title{
+    font-weight:bold;
+    text-align: center;
+}
+.user-rating{
+    float:right;
+}
+.user-name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-email{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+.review-user-name h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#signup-header, #login-header {
+    text-align: center;
+}
+
+.container{
+    width:10%;
+    margin:auto;
+}
+
+/*to target an id we use # */
+#daily
+{
+    background-color:#DCC4DC;
+}
+#list
+{
+    background-color:#D3B5D3;
+}
+#input
+{
+    background-color: white;
+    width: 100%;
+}
+.signupFormInputs, loginFormInputs {
+    margin-bottom: 1px;
+}
+#sign-up-button, #login-button{
+    margin-left: calc(50% - 50px);
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+#signup-first-name { 
+    width: 400px;
+    height: auto;
+    margin-left: calc(50% - 200px);
+} 
+
+#signup-last-name { 
+    width: 400px;
+    height: auto;
+    margin-left: calc(50% - 200px);
+}
+
+#signup-email, #signup-password { 
+    width: 400px;
+    height: auto;
+    margin-left: calc(50% - 200px);
+}
+#login-email, #login-password { 
+    width: 400px;
+    height: auto;
+    margin-left: calc(50% - 200px);
+}
+#new-user-name, #new-user-rating, #new-user-email, #new-user-title, #new-user-review {
+    width: 400px;
+    height: auto;
+    margin-left: calc(50% - 200px);
+}
+#edit-user-name, #edit-user-rating, #edit-user-email, #edit-user-title, #edit-user-review {
+    width: 400px;
+    height: auto;
+    margin-left: calc(50% - 200px);
+}
+
+.delete-button {
+    background-color: black;
+    color: white;
+    padding:10px 15px;
+    margin:0;
+    border:none;
+    float:right;
+}
+
+#submit-button {
+    background-color: black;
+    color: white;
+    padding:10px 15px;
+    border:none;
+    margin-top:50px;
+    margin-bottom: 10px;
+}
+
+#submit-button:hover{
+    background: #2A222A;
+    color: #E3D0E3;
+    border:1px solid #E3D0E3;
+}
+
+#lunch-places-list dd {
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    width: 75%;
+}
+
+#lunch-places-list dd:hover {
+    background-color: rgba(192, 192, 192, 0.85);
+}
+
+#login-error-message, #signup-error-message {
+    display: none;
+    text-align: center;
+    font-weight:bold;
+}
+
+#switch-to-signup-button, #switch-to-login-button {
+    width: 100%;
+    background: none;
+    border:none;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#switch-to-signup-button:hover, #switch-to-login-button:hover{
+    color: darkgray;
+    cursor: pointer;
+}

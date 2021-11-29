@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Fortune Tellers Are Bomb</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+			<div class="review-prompt-box", id='signup-box'>
+				<h3 id='signup-header'>SIGN UP</h3>
+				<input type='text' class='signupFormInputs' id='signup-first-name' placeholder="First Name">
+				<input type='text' class='signupFormInputs' id='signup-last-name' placeholder="Last Name">
+				<input type='email' class='signupFormInputs' id='signup-email' placeholder="Email">
+				<input type='password' class='signupFormInputs' id='signup-password' placeholder="Password">
+				<button id='sign-up-button'>Sign Up</button>
+				<button id='switch-to-login-button'>Already a user? Click here to login</button>
+				<p id='signup-error-message'>This a trial error message</p>
+
+			</div>
+			<div class="review-prompt-box", id='login-box'>
+				<h3 id='login-header'>LOGIN</h3>
+				<input type='text' class='loginFormInputs' id='login-email' placeholder="Email">
+				<input type='password' class='loginFormInputs' id='login-password' placeholder="Password">
+				<button id='login-button'>Login</button>
+				<button id='switch-to-signup-button'>Not already a user? Click here to sign up</button>
+				<p id='login-error-message'>This a trial error message</p>
+
+			</div>
+			<div id="logged-in-page">
+				<div class="review-prompt-box">
+					<h1> We would love to hear from you!</h1>
+					<p>We value your input and would love to hear back from you. Our team works hard to provide services that are satisfactory you. Us fortune tellers are constantly looking to improve. Already satisfied? You can still leave us a review! Give us 5 starts and any feedback. We love hearing your feedback so we can know if how our fortunes are landing. Are they accurate? Inspiring? Too cheesy? Give us a quick message below and let us know. We look foward to hearing from you!</p>
+				</div>
+				<div class="review-prompt-box" id="original-box">
+					<h1>Leave your review below!</h1>
+					<h4>Name: <input type="text" placeholder="Name" id="new-user-name"> </h4>
+					<h4>Email:</h4>
+					<input type="text" placeholder="Email" id="new-user-email">
+					<h4>Rating:</h4>
+					<input type="text" placeholder="Rating" id="new-user-rating">
+					<h4>Title:</h4>
+					<input type="text" placeholder="Title" id="new-user-title">
+					<h4>Review:</h4>
+					<input type="text" placeholder="Review" id="new-user-review">
+					<button id="add-place">Add</button>
+				</div>
+				<div class="review-prompt-box" id="new-box">
+					<h1>Leave your review below!</h1>
+					<h4>Name:
+					<input type="text" placeholder="Name" id="edit-user-name">
+					</h4>
+					<h4>Email:</h4>
+					<input type="text" placeholder="Email" id="edit-user-email">
+					<h4>Rating:</h4>
+					<input type="text" placeholder="Rating" id="edit-user-rating">
+					<h4>Title:</h4>
+					<input type="text" placeholder="Title" id="edit-user-title">
+					<h4>Review:</h4>
+					<input type="text" placeholder="Review" id="edit-user-review">
+					<button id="save-place">Save</button>
+				</div>
+				<dl id="user-reviews-list"></dl>
+			</div>
+		</div>
+		<script src="fortuneTeller.js"></script>
+	</body>
+</html>
